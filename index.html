@@ -12,22 +12,21 @@
     <body>
         <div class="contenedor">
             <form action="" class="formulario" id="formulario" name="formulario">
-                <div class="conenendor-inputs">
+                <div class="contenedor-inputs">
                     <input type="text" name="nombre" placeholder="Nombre">
-                    <input type="text" name="correo" placeholder="Correo">
+                    <input type="email" name="correo" placeholder="Correo">
                     <div class="sexo">
                         <input type="radio" name="sexo" id="hombre" value="hombre">
-                        <label for="hombre">Hombre</label>
+                        <label for="hombre" class="label-radio hombre">Hombre</label>
                         <input type="radio" name="sexo" id="mujer" value="mujer">
-                        <label for="mujer">Mujer</label>
+                        <label for="mujer" class="label-radio mujer">Mujer</label>
                     </div>
                     <div class="terminos">
                         <input type="checkbox" name="terminos" id="terminos">
                         <label for="terminos">Acepto los terminos y condiciones</label>
                     </div>
                     <ul class="error">
-                        <li>Error 1</li>
-                        <li>Error 2</li>
+                        
                     </ul>
                 </div>
                 <input type="submit" class="btn" value="Registrate">
