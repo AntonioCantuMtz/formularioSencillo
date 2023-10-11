@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Proyecto - Formulario</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div class="contenedor">
+            <form action="" class="formulario" id="formulario" name="formulario">
+                <div class="conenendor-inputs">
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="text" name="correo" placeholder="Correo">
+                    <div class="sexo">
+                        <input type="radio" name="sexo" id="hombre" value="hombre">
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="sexo" id="mujer" value="mujer">
+                        <label for="mujer">Mujer</label>
+                    </div>
+                    <div class="terminos">
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <label for="terminos">Acepto los terminos y condiciones</label>
+                    </div>
+                    <ul class="error">
+                        <li>Error 1</li>
+                        <li>Error 2</li>
+                    </ul>
+                </div>
+                <input type="submit" class="btn" value="Registrate">
+            </form>
+        </div>
+        <script src="js/formularioSencillo.js"></script>
+    </body>
+</html>
